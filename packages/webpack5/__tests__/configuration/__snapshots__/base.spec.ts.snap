@@ -148,7 +148,12 @@ exports[`base configuration for android 1`] = `
             options: {
               postcssOptions: {
                 plugins: [
-                  'postcss-import'
+                  [
+                    'postcss-import',
+                    {
+                      resolve: function () { /* omitted long function */ }
+                    }
+                  ]
                 ]
               }
             }
@@ -173,7 +178,12 @@ exports[`base configuration for android 1`] = `
             options: {
               postcssOptions: {
                 plugins: [
-                  'postcss-import'
+                  [
+                    'postcss-import',
+                    {
+                      resolve: function () { /* omitted long function */ }
+                    }
+                  ]
                 ]
               }
             }
@@ -459,7 +469,12 @@ exports[`base configuration for ios 1`] = `
             options: {
               postcssOptions: {
                 plugins: [
-                  'postcss-import'
+                  [
+                    'postcss-import',
+                    {
+                      resolve: function () { /* omitted long function */ }
+                    }
+                  ]
                 ]
               }
             }
@@ -484,7 +499,12 @@ exports[`base configuration for ios 1`] = `
             options: {
               postcssOptions: {
                 plugins: [
-                  'postcss-import'
+                  [
+                    'postcss-import',
+                    {
+                      resolve: function () { /* omitted long function */ }
+                    }
+                  ]
                 ]
               }
             }
